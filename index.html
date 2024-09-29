@@ -16,8 +16,8 @@
         <div class="mockup-phone border-primary">
             <div class="camera"></div>
             <div class="display">
-                <!-- Login  form-->
                 <div class="artboard artboard-demo phone-2">
+                    <!-- Login  form-->
                     <div class="hero bg-base-200 min-h-screen">
                         <div class="hero-content flex-col">
                             <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
@@ -26,30 +26,33 @@
                                         <label class="label">
                                             <span class="label-text">Mobile number</span>
                                         </label>
-                                        <input type="number" placeholder="Enter Your number"
+                                        <input id="mobile-number" type="number" placeholder="Enter Your number"
                                             class="input input-bordered" required />
                                     </div>
                                     <div class="form-control">
                                         <label class="label">
                                             <span class="label-text">Enter 4 Digit Pin</span>
                                         </label>
-                                        <input type="password" placeholder="password" class="input input-bordered"
-                                            required />
+                                        <input id="pin-number" type="password" placeholder="password" class="input input-bordered"
+                                            required  autocomplete="off"/>
                                         <label class="label">
                                             <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
                                         </label>
                                     </div>
                                     <div class="form-control mt-6">
-                                        <button class="btn btn-primary">Login</button>
+                                        <button id="login-btn" class="btn btn-primary">Login</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
+                    <!-- Login  form-->
                 </div>
             </div>
         </div>
+        <!-- phone layout -->
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
