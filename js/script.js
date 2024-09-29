@@ -24,8 +24,8 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
     if (mobileNumber === '' || pinNumber === '') {
         alert('Enter mobile number and password');
     } else {
-        
-        if (mobileNumber === '018' && pinNumber === '5500') {
+
+        if (mobileNumber === '018' && pinNumber === '1234') {
             window.location.href = './home.html';
         } else {
             alert('Wrong mobile number or password');
